@@ -1,5 +1,5 @@
 {
-    "name": "technically-php/null-container",
+    "name": "technically/null-container",
     "description": "Null (always empty) PSR-11 container implementation",
     "type": "library",
     "require": {
