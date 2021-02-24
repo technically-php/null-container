@@ -1,0 +1,22 @@
+{
+    "name": "technically-php/null-container",
+    "description": "Null (always empty) PSR-11 container implementation",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "psr/container": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Voskoboinyk",
+            "email": "ivan@voskoboinyk.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Technically\\NullContainer\\": "src"
+        }
+    }
+}
