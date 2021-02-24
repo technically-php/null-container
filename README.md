@@ -1,3 +1,5 @@
+![example workflow](https://github.com/technically-php/null-container/actions/workflows/test.yml/badge.svg)
+
 # NullContainer
 
 `NullContainer` is a [PSR-11](https://www.php-fig.org/psr/psr-11/) container implementation that is always empty. 
