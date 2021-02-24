@@ -18,8 +18,8 @@ $status = (function() {
 
     register_shutdown_function(function () use (&$finished) {
         if (! $finished) {
-            echo 'Not all tests were executed.', PHP_EOL;
-            return 1;
+            echo PHP_EOL, 'Not all tests were executed.', PHP_EOL;
+            exit(1);
         }
         return 0;
     });
