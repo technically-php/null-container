@@ -17,6 +17,14 @@ but don't want to deal with nullable values.
 - Semver
 - Tests
 
+## Installation
+
+Use [Composer](https://getcomposer.org/) package manager to add *NullContainer* to your project:
+
+```
+composer require technically/null-container
+```
+
 ## Example
 
 ```php
