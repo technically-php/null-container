@@ -2,7 +2,7 @@
 
 # Technically Null Container
 
-Technically `NullContainer` is a [PSR-11][1] container implementation that is always empty.
+`Technically\NullContainer` is a [PSR-11][1] container implementation that is always empty.
 
 This is a [NullObject][2] pattern implementation for PSR-11.
 
