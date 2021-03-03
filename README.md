@@ -1,10 +1,10 @@
-![example workflow](https://github.com/technically-php/null-container/actions/workflows/test.yml/badge.svg)
+![Tests Status][status-badge]
 
-# NullContainer
+# Technically Null Container
 
-`NullContainer` is a [PSR-11](https://www.php-fig.org/psr/psr-11/) container implementation that is always empty.
+Technically `NullContainer` is a [PSR-11][1] container implementation that is always empty.
 
-This is a [NullObject](https://en.wikipedia.org/wiki/Null_object_pattern) pattern implementation for PSR-11.
+This is a [NullObject][2] pattern implementation for PSR-11.
 
 This is useful when you want to provide an optional `ContainerInterface` dependency, 
 but don't want to deal with nullable values.
@@ -19,7 +19,7 @@ but don't want to deal with nullable values.
 
 ## Installation
 
-Use [Composer](https://getcomposer.org/) package manager to add *NullContainer* to your project:
+Use [Composer][3] package manager to add *NullContainer* to your project:
 
 ```
 composer require technically/null-container
@@ -49,4 +49,11 @@ final class MyServiceContainer implements ContainerInterface
 
 ## Credits
 
-- Implemented by [Ivan Voskoboinyk](https://github.com/e1himself)
+- Implemented by [Ivan Voskoboinyk][4]
+
+
+[1]: https://www.php-fig.org/psr/psr-11/
+[2]: https://en.wikipedia.org/wiki/Null_object_pattern
+[3]: https://getcomposer.org/
+[4]: https://github.com/e1himself
+[status-badge]: https://github.com/technically-php/null-container/actions/workflows/test.yml/badge.svg
