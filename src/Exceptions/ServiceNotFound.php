@@ -7,10 +7,7 @@ use RuntimeException;
 
 final class ServiceNotFound extends RuntimeException implements NotFoundExceptionInterface
 {
-    /**
-     * @var string
-     */
-    private $serviceName;
+    private string $serviceName;
 
     /**
      * @param string $serviceName
