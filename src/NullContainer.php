@@ -15,7 +15,7 @@ final class NullContainer implements ContainerInterface
      * @param string $id Identifier of the entry to look for.
      * @throws ServiceNotFound Always
      */
-    public function get($id)
+    public function get(string $id)
     {
         throw new ServiceNotFound($id);
     }
@@ -28,7 +28,7 @@ final class NullContainer implements ContainerInterface
      * @param string $id
      * @return false
      */
-    public function has($id)
+    public function has(string $id): bool
     {
         return false;
     }
