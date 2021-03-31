@@ -16,6 +16,7 @@ but don't want to deal with nullable values.
 - PHP 8.0
 - Semver
 - Tests
+- Changelog
 
 ## Installation
 
@@ -47,6 +48,10 @@ final class MyServiceContainer implements ContainerInterface
 }
 ```
 
+## Changelog
+
+All notable changes to this project will be documented in the [CHANGELOG][changelog] file.
+
 ## Credits
 
 - Implemented by [Ivan Voskoboinyk][4]
@@ -57,3 +62,4 @@ final class MyServiceContainer implements ContainerInterface
 [3]: https://getcomposer.org/
 [4]: https://github.com/e1himself?utm_source=web&utm_medium=github&utm_campaign=technically/null-container
 [status-badge]: https://github.com/technically-php/null-container/actions/workflows/test.yml/badge.svg
+[changelog]: ./CHANGELOG.md
