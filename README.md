@@ -1,6 +1,3 @@
-![Tests Status][status-badge]
-
-
 # Technically Null Container
 
 `Technically\NullContainer` is a [PSR-11][1] container implementation that is always empty.
@@ -9,6 +6,8 @@ This is a [NullObject][2] pattern implementation for PSR-11.
 
 This is useful when you want to provide an optional `ContainerInterface` dependency, 
 but don't want to deal with nullable values.
+
+![Tests Status][status-badge]
 
 
 ## Features
