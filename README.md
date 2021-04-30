@@ -1,5 +1,6 @@
 ![Tests Status][status-badge]
 
+
 # Technically Null Container
 
 `Technically\NullContainer` is a [PSR-11][1] container implementation that is always empty.
@@ -8,6 +9,7 @@ This is a [NullObject][2] pattern implementation for PSR-11.
 
 This is useful when you want to provide an optional `ContainerInterface` dependency, 
 but don't want to deal with nullable values.
+
 
 ## Features
 
@@ -18,6 +20,7 @@ but don't want to deal with nullable values.
 - Tests
 - Changelog
 
+
 ## Installation
 
 Use [Composer][3] package manager to add *NullContainer* to your project:
@@ -25,6 +28,7 @@ Use [Composer][3] package manager to add *NullContainer* to your project:
 ```
 composer require technically/null-container
 ```
+
 
 ## Example
 
@@ -48,9 +52,11 @@ final class MyServiceContainer implements ContainerInterface
 }
 ```
 
+
 ## Changelog
 
 All notable changes to this project will be documented in the [CHANGELOG][changelog] file.
+
 
 ## Credits
 
