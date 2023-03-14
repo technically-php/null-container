@@ -13,8 +13,7 @@ but don't want to deal with nullable values.
 ## Features
 
 - PSR-11
-- PHP 7.1+
-- PHP 8.0
+- PHP 8.0+
 - Semver
 - Tests
 - Changelog
